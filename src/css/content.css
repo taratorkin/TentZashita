@@ -142,3 +142,29 @@
 .content_goods_block_image5 {
   background-image: url(../images/goodsImage5.jpg);
 }
+
+.content_contacts {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #292929;
+}
+
+.content_contacts_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.content_contacts_info_link {
+  color: white;
+}
+
+.content_contacts_map {
+  margin-bottom: 40px;
+}

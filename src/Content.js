@@ -92,6 +92,25 @@ function Content() {
           </div>
         </div>
       </div>
+
+      <div className="content_contacts">
+        <a name="Contacts"></a>
+        <div className="content_contacts_info">
+          <div className="content_contacts_info_margin">
+            <h2>Как с нами связаться:</h2>
+            <p>+7 (960) 299-92-29</p><br/>
+            <p>Череповец, ул. Бабушкина 15</p>
+            <p>Понедельник - Пятница: с 08:00 до 17:00</p>
+            <p>Суббота, Воскресенье: выходные</p><br/>
+            <a className="content_contacts_info_link" href="https://vk.com/club188145621"><i class="fab fa-vk"></i></a>
+          </div>
+        </div>
+        <div className="content_contacts_map">
+          <a href="https://yandex.ru/maps/?um=constructor%3A8931f767039d12fa8fa11fb42253cc597c8fba5a525be086860475f87b0f630a&amp;source=constructorStatic"
+          target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8931f767039d12fa8fa11fb42253cc597c8fba5a525be086860475f87b0f630a&amp;width=600&amp;height=400&amp;lang=ru_RU"
+           alt="" style={{border: '0'}} /></a>
+        </div>
+      </div>
     </div>
   );
 }
