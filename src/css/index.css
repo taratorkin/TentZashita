@@ -4,3 +4,8 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 18px;
 }
+
+p {
+  margin: 0;
+  padding: 0;
+}
