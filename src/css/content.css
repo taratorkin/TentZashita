@@ -1,12 +1,9 @@
 .content {
   display: flex;
+  flex-flow: column;
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: rgb(237,238,240);
-  background: -webkit-linear-gradient(bottom, rgba(237,238,240,1) 0%, rgba(215,212,212,1) 50%, rgba(172,172,172,1) 100%);
-  background: -o-linear-gradient(bottom, rgba(237,238,240,1) 0%, rgba(215,212,212,1) 50%, rgba(172,172,172,1) 100%);
-  background: linear-gradient(to top, rgba(237,238,240,1) 0%, rgba(215,212,212,1) 50%, rgba(172,172,172,1) 100%);
 }
 
 .content_mainScreen_wrapper {
@@ -15,6 +12,10 @@
   justify-content: center;
   width: 100%;
   height: calc(100vh - 65px);
+  background: rgb(237,238,240);
+  background: -webkit-linear-gradient(bottom, rgba(237,238,240,1) 0%, rgba(215,212,212,1) 50%, rgba(172,172,172,1) 100%);
+  background: -o-linear-gradient(bottom, rgba(237,238,240,1) 0%, rgba(215,212,212,1) 50%, rgba(172,172,172,1) 100%);
+  background: linear-gradient(to top, rgba(237,238,240,1) 0%, rgba(215,212,212,1) 50%, rgba(172,172,172,1) 100%);
 }
 
 .content_mainScreen {
@@ -47,4 +48,31 @@
 
 .content_mainScreen_contacts {
   font-size: 35px;
+}
+
+.content_about {
+  display: flex;
+  width: 100%;
+}
+
+.content_about_element {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.content_about_element_text {
+  white-space: pre-line;
+  margin: 25%;
+}
+
+.content_about_image {
+  display: flex;
+  width: 50%;
+  background-image: url(../images/tent2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
