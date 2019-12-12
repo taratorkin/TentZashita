@@ -15,6 +15,7 @@ function Content() {
             <p className="content_mainScreen_contacts">Череповец</p>
             <p className="content_mainScreen_contacts">ул. Бабушкина 15</p>
             <p className="content_mainScreen_contacts">+7 (960) 299-92-29</p>
+            <p className="content_mainScreen_contacts">bintent@yandex.ru</p>
           </div>
           <div className="content_mainScreen_block">
             <img className="content_mainScreen_image" src={tentImg} alt="Палатка сварщика"/>
@@ -52,7 +53,7 @@ function Content() {
             </div>
             <div className="content_goods_block_image content_goods_block_image1"></div>
           </div>
-          <div className="content_goods_block">
+          <div className="content_goods_block content_goods_block_reversed">
             <div className="content_goods_block_image content_goods_block_image2"></div>
             <div className="content_goods_block_text">
               <div className="content_goods_block_text_margin">
@@ -71,7 +72,7 @@ function Content() {
             </div>
             <div className="content_goods_block_image content_goods_block_image3"></div>
           </div>
-          <div className="content_goods_block">
+          <div className="content_goods_block content_goods_block_reversed">
             <div className="content_goods_block_image content_goods_block_image4"></div>
             <div className="content_goods_block_text">
               <div className="content_goods_block_text_margin">
@@ -98,7 +99,8 @@ function Content() {
         <div className="content_contacts_info">
           <div className="content_contacts_info_margin">
             <h2>Как с нами связаться:</h2>
-            <p>+7 (960) 299-92-29</p><br/>
+            <p>+7 (960) 299-92-29</p>
+            <p>bintent@yandex.ru</p><br/>
             <p>Череповец, ул. Бабушкина 15</p>
             <p>Понедельник - Пятница: с 08:00 до 17:00</p>
             <p>Суббота, Воскресенье: выходные</p><br/>
