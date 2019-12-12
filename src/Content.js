@@ -109,7 +109,7 @@ function Content() {
         </div>
         <div className="content_contacts_map">
           <a href="https://yandex.ru/maps/?um=constructor%3A8931f767039d12fa8fa11fb42253cc597c8fba5a525be086860475f87b0f630a&amp;source=constructorStatic"
-          target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8931f767039d12fa8fa11fb42253cc597c8fba5a525be086860475f87b0f630a&amp;width=600&amp;height=400&amp;lang=ru_RU"
+          target="_blank"><img src="https://api-maps.yandex.ru/services/constructor/1.0/static/?um=constructor%3A8931f767039d12fa8fa11fb42253cc597c8fba5a525be086860475f87b0f630a&amp;width=350&amp;height=400&amp;lang=ru_RU"
            alt="" style={{border: '0'}} /></a>
         </div>
       </div>
