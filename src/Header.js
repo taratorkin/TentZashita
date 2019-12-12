@@ -13,7 +13,7 @@ export default class Header extends React.Component {
   render() {
     return(
       <div className="header">
-
+      <a name="Start"></a>
         <div className="header_maincontainer">
           <div className="header_maincontainer_item">
             <a href="#mobile_menu" className='barsIcon' onClick={this.toggleMenu}>

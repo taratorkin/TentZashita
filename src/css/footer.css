@@ -29,3 +29,22 @@
 .footer_list_link:hover:after {
   width: 100%;
 }
+
+.footer_arrow {
+  display: none;
+}
+
+@media (max-width: 1233px) {
+  .footer_list {
+    display: none;
+  }
+
+  .footer_arrow {
+    display: flex;
+    font-size: 35px;
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+}
